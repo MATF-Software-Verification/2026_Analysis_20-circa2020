@@ -295,12 +295,6 @@ Detaljna metodologija, analiza rezultata, uočeni problemi i zaključci nalaze s
 ProjectAnalysisReport.pdf
 ```
 
-LaTeX izvor izveštaja nalazi se u:
-
-```text
-ProjectAnalysisReport.tex
-```
-
 # Zaključak
 
 Analiza projekta Circa2020 obuhvatila je funkcionalno testiranje i coverage, statičku i dinamičku analizu, Qt-specifičnu analizu, pregled strukture i dokumentacije, profilisanje performansi i proveru formatiranja.
