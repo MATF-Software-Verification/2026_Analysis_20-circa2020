@@ -1,0 +1,92 @@
+/**
+@mainpage Circa2020
+
+# O projektu
+
+Circa2020 je C++/Qt aplikacija namenjena kreiranju i simulaciji digitalnih logičkih kola.
+Aplikacija omogućava rad sa različitim vrstama logičkih komponenti, njihovo povezivanje
+i grafički prikaz kola.
+
+Projekat je organizovan tako da su logika komponenti i grafički prikaz uglavnom
+razdvojeni. Osnovu logičkog dela predstavlja klasa `Component`, dok se grafički
+prikaz komponenti zasniva na klasi `ComponentGraphicsItem`.
+
+# Struktura projekta
+
+Najvažniji delovi projekta su:
+
+- `lib/` - implementacija logike kola i komponenti
+- `app/` - Qt grafička aplikacija
+- `Component` - osnovna klasa za logičke komponente
+- `Gate` - bazna klasa za logička kola kao što su AND, OR, XOR i NOT
+- `ComponentGraphicsItem` - osnovna klasa za grafički prikaz komponenti
+- `Scene` - upravljanje komponentama i vezama u grafičkoj sceni
+- `MainWindow` - glavni prozor aplikacije
+
+# Hijerarhija komponenti
+
+Veći broj logičkih elemenata izveden je iz klase `Component`, među kojima su:
+
+- `Adder`
+- `Clock`
+- `Comparator`
+- `Constant`
+- `Decoder`
+- `Divider`
+- `Encoder`
+- `Gate`
+- `LightBulb`
+- `Multiplier`
+- `Pin`
+- `Splitter`
+- `Subtractor`
+- `Wire`
+
+Klasa `Gate` predstavlja dodatni nivo hijerarhije i iz nje su izvedeni konkretni
+logički elementi kao što su `AndGate`, `NandGate`, `NorGate`, `NotGate`,
+`OrGate`, `XorGate` i drugi.
+
+Slična struktura postoji i u grafičkom delu aplikacije, gde različite
+`ComponentGraphicsItem` izvedene klase predstavljaju odgovarajuće komponente
+na Qt grafičkoj sceni.
+
+# Doxygen analiza
+
+Dokumentacija je generisana korišćenjem alata Doxygen i Graphviz.
+
+Generisani su:
+
+- pregled klasa,
+- hijerarhija nasleđivanja,
+- collaboration dijagrami,
+- include dependency grafovi,
+- dokumentacija funkcija i članova klasa.
+
+Doxygen analiza je takođe pronašla jednu neusklađenost između dokumentacije
+i implementacije u funkciji `ComponentFactory::deepCopy`.
+
+U komentaru se dokumentuje parametar:
+
+@code
+@param new_copy_callback
+@endcode
+
+dok trenutni potpis funkcije sadrži parametar:
+
+@code
+ShouldCopyPredicate should_copy
+@endcode
+
+Ovo ukazuje na zastarelu dokumentaciju koja nije ažurirana nakon promene
+naziva ili strukture parametara funkcije.
+
+Ovaj nalaz nije funkcionalna greška, već problem održavanja dokumentacije.
+
+# Generisani dijagrami
+
+Posebno je korisna stranica sa hijerarhijom klasa, na kojoj se mogu videti
+odnosi između osnovnih komponenti, konkretnih logičkih kola i Qt grafičkih
+klasa.
+
+Dijagrami su generisani pomoću Graphviz alata.
+*/

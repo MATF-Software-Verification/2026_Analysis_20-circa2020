@@ -1,0 +1,15 @@
+[1m/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/lib/src/circuitboard.hpp:20:15: [31mstyle:[39m Virtual function 'removeAll' is called from destructor '~CircuitBoard()' at line 9. Dynamic binding is not used. [virtualCallInConstructor][0m
+ virtual void removeAll();
+              ^
+[1m/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/lib/src/circuitboard.cpp:9:2: [2mnote:[0m Calling removeAll
+ removeAll();
+ ^
+[1m/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/lib/src/circuitboard.hpp:20:15: [2mnote:[0m removeAll is a virtual function
+ virtual void removeAll();
+              ^
+[1m/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/lib/src/formula/converter.cpp:127:105: [31mperformance:[39m Function parameter 'visited' should be passed by const reference. [passedByValue][0m
+std::optional<OpNode *> Converter::makeSingleInputNode(OpType type, Component *c, std::set<Component *> visited)
+                                                                                                        ^
+[1m/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/lib/src/formula/converter.cpp:170:104: [31mperformance:[39m Function parameter 'visited' should be passed by const reference. [passedByValue][0m
+std::optional<OpNode *> Converter::makeMultiInputNode(OpType type, Component *c, std::set<Component *> visited)
+                                                                                                       ^

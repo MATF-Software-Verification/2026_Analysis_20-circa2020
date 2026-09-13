@@ -1,0 +1,192 @@
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/lib/src/formula/converter.cpp:245:7: warning: Missing reference in range-for with non trivial type (Connection) [-Wclazy-range-loop-reference]
+        for (auto input_connection : w->getInputConnections()) {
+             ^
+             const  &
+1 warning generated.
+In file included from /home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/util/misc.cpp:7:
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:36:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMakeComposite_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:38:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionExit_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:40:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMinimize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:42:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMaximize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:48:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionNew_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:49:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionSave_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:50:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionOpen_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:56:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_comboBox_activated(const QString &arg1);
+        ^
+8 warnings generated.
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/item/wiring/splitteritem.cpp:111:2: warning: unused QBrush [-Wclazy-unused-non-trivial-variable]
+        QBrush b = QBrush(Qt::white);
+        ^
+1 warning generated.
+In file included from /home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/item/componentgraphicsitem.cpp:6:
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:36:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMakeComposite_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:38:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionExit_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:40:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMinimize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:42:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMaximize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:48:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionNew_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:49:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionSave_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:50:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionOpen_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:56:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_comboBox_activated(const QString &arg1);
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/item/componentgraphicsitem.cpp:108:2: warning: c++11 range-loop might detach Qt container (QList) [-Wclazy-range-loop-detach]
+        for (auto *scitem : getScene()->items()) {
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/item/componentgraphicsitem.cpp:430:9: warning: Missing reference in range-for with non trivial type (std::pair<std::vector<Connection>, bool>) [-Wclazy-range-loop-reference]
+                        for (auto ci : {std::make_pair(input_conns, false), std::make_pair(output_conns, true)}) {
+                             ^
+                             const  &
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/item/componentgraphicsitem.cpp:476:2: warning: unused QList<QGraphicsItem *> [-Wclazy-unused-non-trivial-variable]
+        auto all_items = scene->items();
+        ^
+11 warnings generated.
+In file included from /home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:34:
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:36:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMakeComposite_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:38:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionExit_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:40:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMinimize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:42:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMaximize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:48:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionNew_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:49:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionSave_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:50:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionOpen_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:56:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_comboBox_activated(const QString &arg1);
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:217:4: warning: Don't call QList::first() on temporary [-Wclazy-detaching-temporary]
+                        selectedItems().first()->setSelected(false);
+                        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:217:4: warning: Don't call QList::first() on temporary [-Wclazy-detaching-temporary]
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:352:3: warning: c++11 range-loop might detach Qt container (QList) [-Wclazy-range-loop-detach]
+                for (auto *item : items()) {
+                ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:523:3: warning: Don't call QList::first() on temporary [-Wclazy-detaching-temporary]
+                static_cast<ComponentGraphicsItem *>(selectedItems().first())->safeRotate(orient);
+                ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:523:40: warning: Don't call QList::first() on temporary [-Wclazy-detaching-temporary]
+                static_cast<ComponentGraphicsItem *>(selectedItems().first())->safeRotate(orient);
+                                                     ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:823:6: warning: Don't call QVector::operator[]() on temporary [-Wclazy-detaching-temporary]
+                                        originalWireItem->getOutputPoints()[0].getCenter() + originalWireItem->scenePos();
+                                        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:837:25: warning: Don't call QVector::operator[]() on temporary [-Wclazy-detaching-temporary]
+                                        info.start_point = first.clickedItem->getOutputPoints()[first.cpIndex].getCenter();
+                                                           ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:839:25: warning: Don't call QVector::operator[]() on temporary [-Wclazy-detaching-temporary]
+                                        info.start_point = first.clickedItem->getInputPoints()[first.cpIndex].getCenter();
+                                                           ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:960:8: warning: Missing reference in range-for with non trivial type (std::pair<QVector<ConnectionPoint>, bool>) [-Wclazy-range-loop-reference]
+                for (auto p : ps) {
+                     ^
+                     const  &
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:987:3: warning: Don't call QList::first() on temporary [-Wclazy-detaching-temporary]
+                static_cast<ComponentGraphicsItem *>(selectedItems().first())->safeResize(n);
+                ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:987:40: warning: Don't call QList::first() on temporary [-Wclazy-detaching-temporary]
+                static_cast<ComponentGraphicsItem *>(selectedItems().first())->safeResize(n);
+                                                     ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/scene.cpp:43:28: warning: The QColor ctor taking ints is cheaper than the one taking string literals [-Wclazy-qcolor-from-literal]
+        setBackgroundBrush(QColor("#414141"));
+                                  ^
+20 warnings generated.
+In file included from /home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/main.cpp:5:
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:36:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMakeComposite_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:38:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionExit_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:40:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMinimize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:42:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMaximize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:48:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionNew_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:49:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionSave_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:50:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionOpen_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:56:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_comboBox_activated(const QString &arg1);
+        ^
+8 warnings generated.
+In file included from /home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.cpp:1:
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:36:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMakeComposite_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:38:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionExit_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:40:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMinimize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:42:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionMaximize_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:48:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionNew_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:49:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionSave_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:50:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_actionOpen_triggered();
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.hpp:56:2: warning: Slots named on_foo_bar are error prone [-Wclazy-connect-by-name]
+        void on_comboBox_activated(const QString &arg1);
+        ^
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.cpp:329:8: warning: Missing reference in range-for with non trivial type (std::basic_string<char>) [-Wclazy-range-loop-reference]
+                for (auto formula : expressionFormulae)
+                     ^
+                     const  &
+/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/app/src/mainwindow.cpp:332:8: warning: Missing reference in range-for with non trivial type (std::basic_string<char>) [-Wclazy-range-loop-reference]
+                for (auto formula : simplifiedFormulae)
+                     ^
+                     const  &
+10 warnings generated.

@@ -1,0 +1,25 @@
+# Build direktorijumi
+clazy/build/
+perf/build/
+unit_tests/build/
+unit_tests/build-coverage/
+
+# Generisana Doxygen dokumentacija
+doxygen/output/
+
+# Perf binarni podaci
+perf/perf.data
+perf/perf.data.old
+
+# Privremeni/editor fajlovi
+*.swp
+*~
+.DS_Store
+
+valgrind/build/
+
+# LCOV intermediate files
+unit_tests/coverage/baseline.info
+unit_tests/coverage/coverage.info
+unit_tests/coverage/coverage_total.info
+doxygen/run.log

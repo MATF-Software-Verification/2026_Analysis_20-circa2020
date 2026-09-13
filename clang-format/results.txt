@@ -1,0 +1,4 @@
+clang-format version: Ubuntu clang-format version 14.0.0-1ubuntu1.1
+Style: /home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/.clang-format
+Checked files: 183
+Non-compliant files: 0
