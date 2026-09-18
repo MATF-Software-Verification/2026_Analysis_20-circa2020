@@ -1,19 +1,23 @@
-# started on Sun Sep 13 22:13:15 2026
+# started on Fri Sep 18 19:20:02 2026
 
 
- Performance counter stats for '/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/build/Circa2020_test' (5 runs):
+ Performance counter stats for '/home/luka/Desktop/2026_Analysis_20-circa2020/20-circa2020/build/Circa2020':
 
-              8,53 msec task-clock                       #    0,744 CPUs utilized               ( +-  8,79% )
-                 0      context-switches                 #    0,000 /sec                      
-                 0      cpu-migrations                   #    0,000 /sec                      
-               265      page-faults                      #   31,053 K/sec                       ( +-  0,23% )
-          10516826      cycles                           #    1,232 GHz                         ( +-  2,07% )  (83,44%)
-            460530      stalled-cycles-frontend          #    4,38% frontend cycles idle        ( +- 11,81% )  (85,14%)
-           2146454      stalled-cycles-backend           #   20,41% backend cycles idle         ( +-  8,74% )  (85,19%)
-          10242965      instructions                     #    0,97  insn per cycle            
-                                                  #    0,21  stalled cycles per insn     ( +-  1,63% )  (85,09%)
-           2006722      branches                         #  235,150 M/sec                       ( +-  1,91% )  (86,23%)
-            134841      branch-misses                    #    6,72% of all branches             ( +-  1,16% )  (74,91%)
+           3734,39 msec task-clock                       #    0,084 CPUs utilized             
+             19472      context-switches                 #    5,214 K/sec                     
+               886      cpu-migrations                   #  237,254 /sec                      
+             10520      page-faults                      #    2,817 K/sec                     
+        5717976209      cycles                           #    1,531 GHz                         (83,23%)
+         435111435      stalled-cycles-frontend          #    7,61% frontend cycles idle        (83,94%)
+        1399461538      stalled-cycles-backend           #   24,47% backend cycles idle         (83,71%)
+        6219357375      instructions                     #    1,09  insn per cycle            
+                                                  #    0,23  stalled cycles per insn     (83,31%)
+        1133421196      branches                         #  303,509 M/sec                       (82,73%)
+          31990121      branch-misses                    #    2,82% of all branches             (83,08%)
 
-          0,011477 +- 0,000991 seconds time elapsed  ( +-  8,64% )
+      44,562149556 seconds time elapsed
+
+       2,789044000 seconds user
+       0,978070000 seconds sys
+
 

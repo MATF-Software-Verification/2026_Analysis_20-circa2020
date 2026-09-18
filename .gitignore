@@ -23,3 +23,8 @@ unit_tests/coverage/baseline.info
 unit_tests/coverage/coverage.info
 unit_tests/coverage/coverage_total.info
 doxygen/run.log
+
+# Additional analysis intermediate files
+perf_flamegraph/perf_script.txt
+perf_flamegraph/folded_stacks.txt
+valgrind/test_output.txt
